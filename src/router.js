@@ -185,6 +185,13 @@ const routers = [
         component: (resolve) => require(['./views/components/grid.vue'], resolve)
     },
     {
+        path: '/components/grid-en',
+        meta: {
+            title: 'Grid'
+        },
+        component: (resolve) => require(['./views/components/grid-en.vue'], resolve)
+    },
+    {
         path: '/components/layout',
         meta: {
             title: '布局 Layout'
@@ -260,6 +267,13 @@ const routers = [
             title: '输入框 Input'
         },
         component: (resolve) => require(['./views/components/input.vue'], resolve)
+    },
+    {
+        path: '/components/input-en',
+        meta: {
+            title: 'Input'
+        },
+        component: (resolve) => require(['./views/components/input-en.vue'], resolve)
     },
     {
         path: '/components/radio',
@@ -430,6 +444,13 @@ const routers = [
         component: (resolve) => require(['./views/components/message.vue'], resolve)
     },
     {
+        path: '/components/message-en',
+        meta: {
+            title: 'Message'
+        },
+        component: (resolve) => require(['./views/components/message-en.vue'], resolve)
+    },
+    {
         path: '/components/notice',
         meta: {
             title: '通知提醒 Notice'
@@ -484,6 +505,13 @@ const routers = [
             title: '时间轴 Timeline'
         },
         component: (resolve) => require(['./views/components/timeline.vue'], resolve)
+    },
+    {
+        path: '/components/timeline-en',
+        meta: {
+            title: 'Timeline'
+        },
+        component: (resolve) => require(['./views/components/timeline-en.vue'], resolve)
     },
     {
         path: '/components/tag',
@@ -589,6 +617,13 @@ const routers = [
             title: '加载进度条 LoadingBar'
         },
         component: (resolve) => require(['./views/components/loading-bar.vue'], resolve)
+    },
+    {
+        path: '/components/loading-bar-en',
+        meta: {
+            title: 'LoadingBar'
+        },
+        component: (resolve) => require(['./views/components/loading-bar-en.vue'], resolve)
     },
     {
         path: '/components/circle',
